@@ -1,0 +1,8 @@
+# GPU용 PyTorch(CUDA)는 https://pytorch.org 의 설치 안내에 나오는 명령으로 먼저 설치하세요.
+torch
+torchvision
+transformers>=4.57
+accelerate
+pillow
+# 4bit 실험(--load-4bit)을 할 때만 필요합니다.
+# bitsandbytes
